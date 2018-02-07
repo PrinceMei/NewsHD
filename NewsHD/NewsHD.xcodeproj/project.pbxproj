@@ -13,6 +13,12 @@
 		88AA74D9202AD0250015D1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AA74D8202AD0250015D1B6 /* Assets.xcassets */; };
 		88AA74DC202AD0250015D1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AA74DA202AD0250015D1B6 /* LaunchScreen.storyboard */; };
 		88AA74DF202AD0250015D1B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA74DE202AD0250015D1B6 /* main.m */; };
+		88AA7500202ADE820015D1B6 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA74FF202ADE820015D1B6 /* VideoViewController.m */; };
+		88AA7503202ADE9F0015D1B6 /* ScienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA7502202ADE9F0015D1B6 /* ScienceViewController.m */; };
+		88AA7506202ADEB70015D1B6 /* SocietyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA7505202ADEB70015D1B6 /* SocietyViewController.m */; };
+		88AA7509202ADED00015D1B6 /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA7508202ADED00015D1B6 /* SubscribeViewController.m */; };
+		88AA750C202ADEE40015D1B6 /* HeadlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA750B202ADEE40015D1B6 /* HeadlineViewController.m */; };
+		88AA750F202ADEF80015D1B6 /* HotspotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA750E202ADEF80015D1B6 /* HotspotViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		88AA74DB202AD0250015D1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AA74DD202AD0250015D1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88AA74DE202AD0250015D1B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88AA74FE202ADE820015D1B6 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		88AA74FF202ADE820015D1B6 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		88AA7501202ADE9F0015D1B6 /* ScienceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScienceViewController.h; sourceTree = "<group>"; };
+		88AA7502202ADE9F0015D1B6 /* ScienceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScienceViewController.m; sourceTree = "<group>"; };
+		88AA7504202ADEB70015D1B6 /* SocietyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocietyViewController.h; sourceTree = "<group>"; };
+		88AA7505202ADEB70015D1B6 /* SocietyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocietyViewController.m; sourceTree = "<group>"; };
+		88AA7507202ADED00015D1B6 /* SubscribeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubscribeViewController.h; sourceTree = "<group>"; };
+		88AA7508202ADED00015D1B6 /* SubscribeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubscribeViewController.m; sourceTree = "<group>"; };
+		88AA750A202ADEE40015D1B6 /* HeadlineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadlineViewController.h; sourceTree = "<group>"; };
+		88AA750B202ADEE40015D1B6 /* HeadlineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadlineViewController.m; sourceTree = "<group>"; };
+		88AA750D202ADEF80015D1B6 /* HotspotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotspotViewController.h; sourceTree = "<group>"; };
+		88AA750E202ADEF80015D1B6 /* HotspotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotspotViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 		88AA74CE202AD0250015D1B6 /* NewsHD */ = {
 			isa = PBXGroup;
 			children = (
+				88AA74E5202ADE5B0015D1B6 /* Main */,
 				88AA74CF202AD0250015D1B6 /* AppDelegate.h */,
 				88AA74D0202AD0250015D1B6 /* AppDelegate.m */,
 				88AA74D2202AD0250015D1B6 /* ViewController.h */,
@@ -69,6 +88,217 @@
 				88AA74DE202AD0250015D1B6 /* main.m */,
 			);
 			path = NewsHD;
+			sourceTree = "<group>";
+		};
+		88AA74E5202ADE5B0015D1B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				88AA74E6202ADE5B0015D1B6 /* Video-视频 */,
+				88AA74EA202ADE5B0015D1B6 /* Science-科技 */,
+				88AA74EE202ADE5B0015D1B6 /* Society-社会 */,
+				88AA74F2202ADE5B0015D1B6 /* Headline-头条 */,
+				88AA74F6202ADE5B0015D1B6 /* Subscribe-订阅 */,
+				88AA74FA202ADE5B0015D1B6 /* Hotspot-热点 */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		88AA74E6202ADE5B0015D1B6 /* Video-视频 */ = {
+			isa = PBXGroup;
+			children = (
+				88AA74E7202ADE5B0015D1B6 /* Controller */,
+				88AA74E8202ADE5B0015D1B6 /* Model */,
+				88AA74E9202ADE5B0015D1B6 /* View */,
+			);
+			path = "Video-视频";
+			sourceTree = "<group>";
+		};
+		88AA74E7202ADE5B0015D1B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88AA74FE202ADE820015D1B6 /* VideoViewController.h */,
+				88AA74FF202ADE820015D1B6 /* VideoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88AA74E8202ADE5B0015D1B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88AA74E9202ADE5B0015D1B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88AA74EA202ADE5B0015D1B6 /* Science-科技 */ = {
+			isa = PBXGroup;
+			children = (
+				88AA74EB202ADE5B0015D1B6 /* Controller */,
+				88AA74EC202ADE5B0015D1B6 /* Model */,
+				88AA74ED202ADE5B0015D1B6 /* View */,
+			);
+			path = "Science-科技";
+			sourceTree = "<group>";
+		};
+		88AA74EB202ADE5B0015D1B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88AA7501202ADE9F0015D1B6 /* ScienceViewController.h */,
+				88AA7502202ADE9F0015D1B6 /* ScienceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88AA74EC202ADE5B0015D1B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88AA74ED202ADE5B0015D1B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88AA74EE202ADE5B0015D1B6 /* Society-社会 */ = {
+			isa = PBXGroup;
+			children = (
+				88AA74EF202ADE5B0015D1B6 /* Controller */,
+				88AA74F0202ADE5B0015D1B6 /* Model */,
+				88AA74F1202ADE5B0015D1B6 /* View */,
+			);
+			path = "Society-社会";
+			sourceTree = "<group>";
+		};
+		88AA74EF202ADE5B0015D1B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88AA7504202ADEB70015D1B6 /* SocietyViewController.h */,
+				88AA7505202ADEB70015D1B6 /* SocietyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88AA74F0202ADE5B0015D1B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88AA74F1202ADE5B0015D1B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88AA74F2202ADE5B0015D1B6 /* Headline-头条 */ = {
+			isa = PBXGroup;
+			children = (
+				88AA74F3202ADE5B0015D1B6 /* Controller */,
+				88AA74F4202ADE5B0015D1B6 /* Model */,
+				88AA74F5202ADE5B0015D1B6 /* View */,
+			);
+			path = "Headline-头条";
+			sourceTree = "<group>";
+		};
+		88AA74F3202ADE5B0015D1B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88AA750A202ADEE40015D1B6 /* HeadlineViewController.h */,
+				88AA750B202ADEE40015D1B6 /* HeadlineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88AA74F4202ADE5B0015D1B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88AA74F5202ADE5B0015D1B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88AA74F6202ADE5B0015D1B6 /* Subscribe-订阅 */ = {
+			isa = PBXGroup;
+			children = (
+				88AA74F7202ADE5B0015D1B6 /* Controller */,
+				88AA74F8202ADE5B0015D1B6 /* Model */,
+				88AA74F9202ADE5B0015D1B6 /* View */,
+			);
+			path = "Subscribe-订阅";
+			sourceTree = "<group>";
+		};
+		88AA74F7202ADE5B0015D1B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88AA7507202ADED00015D1B6 /* SubscribeViewController.h */,
+				88AA7508202ADED00015D1B6 /* SubscribeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88AA74F8202ADE5B0015D1B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88AA74F9202ADE5B0015D1B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88AA74FA202ADE5B0015D1B6 /* Hotspot-热点 */ = {
+			isa = PBXGroup;
+			children = (
+				88AA74FB202ADE5B0015D1B6 /* Controller */,
+				88AA74FC202ADE5B0015D1B6 /* Model */,
+				88AA74FD202ADE5B0015D1B6 /* View */,
+			);
+			path = "Hotspot-热点";
+			sourceTree = "<group>";
+		};
+		88AA74FB202ADE5B0015D1B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88AA750D202ADEF80015D1B6 /* HotspotViewController.h */,
+				88AA750E202ADEF80015D1B6 /* HotspotViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88AA74FC202ADE5B0015D1B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88AA74FD202ADE5B0015D1B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +373,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				88AA74D4202AD0250015D1B6 /* ViewController.m in Sources */,
+				88AA7503202ADE9F0015D1B6 /* ScienceViewController.m in Sources */,
+				88AA7509202ADED00015D1B6 /* SubscribeViewController.m in Sources */,
 				88AA74DF202AD0250015D1B6 /* main.m in Sources */,
+				88AA750C202ADEE40015D1B6 /* HeadlineViewController.m in Sources */,
+				88AA750F202ADEF80015D1B6 /* HotspotViewController.m in Sources */,
+				88AA7506202ADEB70015D1B6 /* SocietyViewController.m in Sources */,
+				88AA7500202ADE820015D1B6 /* VideoViewController.m in Sources */,
 				88AA74D1202AD0250015D1B6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
